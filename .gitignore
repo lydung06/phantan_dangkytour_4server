@@ -1,0 +1,47 @@
+
+# ==============================
+# Java
+# ==============================
+*.class
+*.jar
+*.war
+*.log
+
+# ==============================
+# Maven / Spring Boot
+# ==============================
+**/target/
+.mvn/wrapper/maven-wrapper.jar
+
+# ==============================
+# IDE - Visual Studio Code
+# ==============================
+.vscode/
+*.code-workspace
+
+# ==============================
+# IDE - IntelliJ IDEA / Eclipse
+# ==============================
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+
+# ==============================
+# Environment and secrets
+# ==============================
+.env
+.env.*
+!.env.example
+**/application-local.properties
+**/application-secret.properties
+
+# ==============================
+# Operating System
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+**/application-secret.properties
